@@ -19,3 +19,12 @@ require('dotenv').config();
 
 To avoid hard-coding your precious credentials and other sensitive info into server.js, you'll have to make a .env file and 
 configure your variables accordingly.
+
+```
+HOST = '0.0.0.0'
+PORT = 8080
+MONGO_USERNAME = yourDbUsername
+MONGO_PASSWORD = yourDbPassword
+MONGO_DATABASE = yourDbName
+MONGO_URI = restOfTheUrl
+```
